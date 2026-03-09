@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/Raadin7/Devops_Demo.git'
+                git branch: 'main', url: 'https://github.com/Raadin7/Devops_Demo.git'
             }
         }
 
